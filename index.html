@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class = "container-fluid img-responsive" id ="main">
+    <p class = "header">Your L<i class="fa fa-sun-o" aria-hidden="true"></i>cal Weather App</p>
+    <p id = "location"></p>
+    <p id = "temperature" class="celsius">
+      <span id="tempCelsius" class="toggle"></span>
+      <span id="tempFahrenheit" class="toggle" style="display:none"></span>
+    </p>
+    <a class ="btn btn-primary" role = "button" id ="toggle">Toggle °C/F</a>
+    </div>
+
+      <p id = "weatherCondition"></p>
+      <div id = "weatherIcon">
+    <div class="icon sun-shower" id="shower">
+    <div class="cloud"></div>
+    <div class="sun">
+      <div class="rays"></div>
+    </div>
+    <div class="rain"></div>
+  </div>
+
+  <div class="icon thunder-storm" id="thunder">
+    <div class="cloud"></div>
+    <div class="lightning">
+      <div class="bolt"></div>
+      <div class="bolt"></div>
+    </div>
+  </div>
+
+  <div class="icon cloudy" id="clouds">
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+  </div>
+
+  <div class="icon flurries" id="snow">
+    <div class="cloud"></div>
+    <div class="snow">
+      <div class="flake"></div>
+      <div class="flake"></div>
+    </div>
+  </div>
+
+  <div class="icon sunny" id="sun">
+    <div class="sun">
+      <div class="rays"></div>
+    </div>
+  </div>
+
+  <div class="icon rainy" id="rain">
+    <div class="cloud"></div>
+    <div class="rain"></div>
+  </div>
+    </div>
+    <p class="footer"> Animated Icons by <a href="http://codepen.io/joshbader/full/EjXgqr">joshbader.</a>
+    </p>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script  type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
